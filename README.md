@@ -57,7 +57,21 @@ streamlit run app/dashboard/dashboard.py
 
 ## Screenshots
 
-Screenshots will be added soon.
+### Dashboard Overview
+
+![Overview](screenshots/overview.png)
+
+### Sentiment Analysis
+
+![Sentiment](screenshots/sentiment.png)
+
+### Technical Analysis
+
+![Technicals](screenshots/technical.png)
+
+### Top Opportunities
+
+![Opportunities](screenshots/opportunities.png)
 
 ## Future Improvements
 
