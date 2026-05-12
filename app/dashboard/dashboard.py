@@ -1,8 +1,8 @@
 import streamlit as st
-import pandas_ta as ta
+# import pandas_ta as ta
 import pandas as pd
 import plotly.graph_objects as go
-from streamlit_autorefresh import st_autorefresh
+# from streamlit_autorefresh import st_autorefresh
 
 import sys
 import os
@@ -26,13 +26,14 @@ from app.data.fetcher import (
     load_tickers
 )
 
-
 def calculate_indicators(data):
+    # data["RSI"] = ta.rsi(
+    #     data["Close"],
+    #     length=14
+    # )
 
-    data["RSI"] = ta.rsi(
-        data["Close"],
-        length=14
-    )
+    data["RSI"] = 50
+
 
     if len(data) >= 20:
 
@@ -205,10 +206,10 @@ st.markdown(
     hide_streamlit_style,
     unsafe_allow_html=True
 )
-st_autorefresh(
-    interval=30000,
-    key="market_refresh"
-)
+#  st_autorefresh(
+#     interval=30000,
+#    key="market_refresh"
+#)
 
 tickers = load_tickers()
 
