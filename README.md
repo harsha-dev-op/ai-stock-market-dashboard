@@ -1,5 +1,9 @@
 # AI Stock Market Dashboard
 
+## Live Demo
+
+[Open AI Market Intelligence Dashboard](https://ai-market-intelligence.streamlit.app)
+
 An interactive stock market intelligence dashboard built using Python and Streamlit. The project combines technical analysis indicators and news sentiment analysis to generate market insights and trading signals through a clean and user-friendly interface.
 
 ## Features
